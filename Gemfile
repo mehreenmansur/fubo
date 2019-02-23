@@ -10,6 +10,7 @@ gem 'pg'
 gem 'puma'
 gem 'rails'
 gem 'sassc-rails'
+gem 'slim-rails'
 gem 'turbolinks'
 gem 'uglifier'
 
