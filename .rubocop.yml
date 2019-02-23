@@ -1,0 +1,25 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - bin/*
+Rails:
+  Enabled: true
+Documentation:
+  Enabled: false
+
+DotPosition:
+  EnforcedStyle: trailing
+
+Layout:
+  Style/EmptyLinesAroundBlockBody:
+    Enabled: false
+
+  Style/EmptyLinesAroundModuleBody:
+    Enabled: false
+
+  Style/EmptyLinesAroundClassBody:
+    Enabled: false
+
+  Style/EmptyLinesAroundMethodBody:
+    Enabled: false

@@ -1,16 +1,17 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
 
-gem 'rails'
+gem 'bootsnap', require: false
 gem 'pg'
 gem 'puma'
+gem 'rails'
 gem 'sassc-rails'
-gem 'uglifier'
-
 gem 'turbolinks'
-gem 'bootsnap', require: false
+gem 'uglifier'
 
 group :development, :test do
   gem 'dotenv-rails'
@@ -18,8 +19,9 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'
   gem 'listen'
+  gem 'rubocop', require: false
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'web-console'
 end
