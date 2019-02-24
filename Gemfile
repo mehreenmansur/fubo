@@ -6,6 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.1'
 
 gem 'bootsnap', require: false
+gem 'bootstrap'
 gem 'pg'
 gem 'puma'
 gem 'rails'
@@ -22,6 +23,7 @@ end
 group :development do
   gem 'listen'
   gem 'rubocop', require: false
+  gem 'slim_lint'
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
