@@ -1,0 +1,11 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    on_warn: fail
+    command: ['bundle', 'exec', 'rubocop']
+
+  SlimLint:
+    enabled: true
+    on_warn: fail
+    command: ['bundle', 'exec', 'slim-lint']
+    include: 'app/views/**/*.slim'

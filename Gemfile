@@ -11,6 +11,7 @@ gem 'pg'
 gem 'puma'
 gem 'rails'
 gem 'sassc-rails'
+gem 'simple_form'
 gem 'slim-rails'
 gem 'turbolinks'
 gem 'uglifier'
@@ -22,8 +23,9 @@ end
 
 group :development do
   gem 'listen'
+  gem 'overcommit', require: false
   gem 'rubocop', require: false
-  gem 'slim_lint'
+  gem 'slim_lint', require: false
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
