@@ -7,6 +7,7 @@ ruby '2.6.1'
 
 gem 'bootsnap', require: false
 gem 'bootstrap'
+gem 'devise'
 gem 'pg'
 gem 'puma'
 gem 'rails'
