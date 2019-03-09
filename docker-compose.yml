@@ -4,7 +4,7 @@ services:
     image: postgres:11.2-alpine
     restart: always
     ports:
-      - 5432:5432
+      - '5432:5432'
     env_file:
       - .env
 
@@ -12,4 +12,9 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8888:8080
+      - '3088:8080'
+  mailcatcher:
+    image: tophfr/mailcatcher
+    ports:
+      - '3080:80'
+      - '3025:25'

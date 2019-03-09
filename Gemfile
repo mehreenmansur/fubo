@@ -18,8 +18,11 @@ gem 'turbolinks'
 gem 'uglifier'
 
 group :development, :test do
+  gem 'capybara'
   gem 'dotenv-rails'
+  gem 'faker'
   gem 'pry-rails'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -30,4 +33,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'factory_bot_rails'
 end

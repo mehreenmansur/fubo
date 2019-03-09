@@ -29,3 +29,5 @@
 # Ignore environment config files
 /.env*
 !/.env.sample
+
+spec/example.txt
