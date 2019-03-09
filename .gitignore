@@ -30,4 +30,4 @@
 /.env*
 !/.env.sample
 
-spec/example.txt
+spec/examples.txt
