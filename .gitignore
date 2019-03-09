@@ -31,3 +31,5 @@
 !/.env.sample
 
 spec/examples.txt
+
+coverage
