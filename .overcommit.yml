@@ -9,3 +9,8 @@ PreCommit:
     on_warn: fail
     command: ['bundle', 'exec', 'slim-lint']
     include: 'app/views/**/*.slim'
+PrePush:
+  RSpec:
+    enabled: true
+    on_warn: fail
+    command: ['bundle', 'exec', 'rspec']
