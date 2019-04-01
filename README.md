@@ -27,7 +27,7 @@ PORT
 SMTP_HOST
 SMTP_PORT
 ```
-## Dependent services
+## Dependent services for development
 ```bash
 docker-compose up
 ```
